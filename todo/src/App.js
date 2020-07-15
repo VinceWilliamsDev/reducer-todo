@@ -9,24 +9,6 @@ function App() {
 
   const [state, dispatch] = useReducer(reducer, initialState)
 
-  // const updateTodo = taskName => {
-
-  //   const newTask = {
-  //       task: `${taskName}`,
-  //       id: Date.now(),
-  //       completed: false
-  //   }
-
-  //   setTodoList([...todoList, newTask ])
-  // }
-
-  // const clearCompleted = () => {
-  //   //function to clear completed tasks
-  //   setTodoList({
-  //       todo: todoList.todo.filter(item => !item.completed)
-  //   })
-  // }
-
   return (
     <div>
       <h2>Welcome to your Todo App!</h2>
